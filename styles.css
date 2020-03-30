@@ -1,4 +1,4 @@
- 
+
 /*! Squarespace LESS Compiler (less.js language v1.3.3) */
  article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{
     display:block
@@ -15404,4 +15404,6 @@ img[data-src]:not([src]){
  a {
     outline:none !important;
 }
- 
+.vidframe {
+  max-width: 100%;
+}
