@@ -14321,7 +14321,7 @@ nav.main-menu .subnav{
     margin:0 auto
 }
 #header,.content-wrapper{
-    max-width:759px;
+    max-width:800px;
     margin:0 auto
 }
 #header h1.site-title{
@@ -14608,7 +14608,7 @@ nav.main-menu .subnav{
     display:none !important
 }
 .collection-type-blog article.category-wide .post{
-    max-width:759px;
+    max-width:800px;
     margin:0 auto
 }
 .collection-type-blog article.category-narrow .content-wrapper,.collection-type-blog article.category-narrow .special-content{
