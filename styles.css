@@ -15404,33 +15404,17 @@ img[data-src]:not([src]){
  a {
     outline:none !important;
 }
-.vidframe {
-  max-width: 100%;
-}
-#logocontainer {
-  position: relative;
+#videoDiv {
   width: 100%;
   height: 360px;
+  position: relative;
+}
+#videoBlock {
+  width: 100%;
+  height: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  overflow: hidden;
-}
-#logocontainer h1 {
-  text-align: center;
-  z-index: 1;
-  width: 100%;
-  height:100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.videocontainer {
-  position: absolute;
-  display: flex;
-  top: 0;
-  bottom: 0;
-  width: 100%;
+  align-items: center;
 }
 #videoMessage {
   width: 100%;
