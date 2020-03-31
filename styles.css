@@ -15420,7 +15420,7 @@ img[data-src]:not([src]){
   text-align: center;
   z-index: 1;
 }
-^.videocontainer {
+.videocontainer {
   position: absolute;
   top: 0;
   bottom: 0;
