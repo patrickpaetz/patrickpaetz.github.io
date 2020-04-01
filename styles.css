@@ -15406,7 +15406,7 @@ img[data-src]:not([src]){
 }
 #videoDiv {
   width: 100vw;
-  height: 20vh;
+  height: 30vh;
 }
 #videoBlock {
   width: 100vw;
