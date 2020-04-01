@@ -5,8 +5,6 @@
 }
 audio,canvas,video{
     display:inline-block;
-    *display:inline;
-    *zoom:1
 }
 audio:not([controls]){
     display:none
@@ -14196,8 +14194,6 @@ nav ul,nav ol{
 #navBlock nav ul li,#categoryNav nav ul li{
     display:inline-block;
     text-align:center;
-    *display:inline;
-    *zoom:1
 }
 #navBlock nav ul li a,#categoryNav nav ul li a{
     padding:0 .8em
@@ -14261,8 +14257,6 @@ nav select{
     font-size:13px;
     color:#666;
     display:inline-block;
-    *display:block;
-    *zoom:1;
     height:56px;
     line-height:56px;
     white-space:nowrap;
@@ -15404,35 +15398,19 @@ img[data-src]:not([src]){
  a {
     outline:none !important;
 }
-#videoDiv {
+.videoDiv {
   width: 100vw;
   height: 30vh;
-}
-#videoBlock {
-  width: 100vw;
-  height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#videoMessage {
-  max-width: 800px;
-  width: 75vw;
-  max-height: 222px;
-  height: 30vh;
-  padding: 0;
+  overflow: hidden;
   margin: 0 auto;
+  margin-bottom: 40px;
+  position: relative;
 }
-#videoMessage *{
-  padding:0;
-  margin:0 auto;
-}
-#videoMessage {
-  text-shadow: 2px 2px 2px #000000;
-  color:white;
-  z-index:99
-}
-#videoMessage h1{
-  font-size: 2em;
-  text-align:center;
+.video-background { /* class name used in javascript too */
+  width: 100%; /* width needs to be set to 100% */
+  height: 100%; /* height needs to be set to 100% */
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
