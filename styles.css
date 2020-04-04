@@ -15417,3 +15417,7 @@ img[data-src]:not([src]){
   max-width: 800px;
   margin: 0 auto;
 }
+.logoImg {
+  position: absolute;
+  top: 10%;
+}
