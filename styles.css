@@ -15415,4 +15415,5 @@ img[data-src]:not([src]){
 }
 .logoDiv {
   max-width: 800px;
+  margin: 0 auto;
 }
