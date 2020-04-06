@@ -1789,7 +1789,7 @@ body>.login-wrapper.hidden{
     }
 }
 .sqs-row{
-    width:auto !important
+    width:100% !important
 }
 .sqs-row:before,.sqs-row:after{
     content:"";
@@ -2077,10 +2077,6 @@ body>.login-wrapper.hidden{
 }
 .sqs-col-1 .sqs-col-1{
     width:100%
-}
-.sqs-layout > .sqs-row{
-    margin-left:-17px;
-    margin-right:-17px
 }
 .sqs-layout:not(.sqs-editing) .sqs-row .sqs-block:not(.float):not(.sqs-feature-gated-wrapper):first-child{
     padding-top:0
