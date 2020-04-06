@@ -15252,9 +15252,9 @@ img[data-src]:not([src]){
   z-index: -1;
 }
 .logoDiv {
-  max-width: 50vw;
+  max-width: 80%;
   margin: 0 auto;
-  width:50vw;
+  width:800px;
 }
 .logoImg {
   position: absolute;
