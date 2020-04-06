@@ -15260,3 +15260,6 @@ img[data-src]:not([src]){
   position: absolute;
   top: 10%;
 }
+iframe{
+    width:100% !important;
+}
