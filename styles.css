@@ -15244,7 +15244,7 @@ img[data-src]:not([src]){
   width: 100%; /* width needs to be set to 100% */
   position: absolute;
   left: 0;
-  top: -65%;
+  top: -175%;
   z-index: -1;
 }
 .logoDiv {
