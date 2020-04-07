@@ -15270,3 +15270,8 @@ iframe{
   padding-bottom: 56.25%;
   margin: 5px 0;
 }
+@media (max-width: 725px){
+  .video-background{
+    top:-75%
+  }
+}
