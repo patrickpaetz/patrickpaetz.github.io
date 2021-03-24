@@ -14121,7 +14121,7 @@ nav.main-menu .subnav{
 }
 #canvas{
     padding:0;
-    max-width:800px;
+    max-width:980px;
     margin:0 auto
 }
 #header{
@@ -14149,7 +14149,7 @@ nav.main-menu .subnav{
     margin:0 auto
 }
 #header,.content-wrapper{
-    max-width:800px;
+    max-width:980px;
     margin:0 auto
 }
 #header h1.site-title{
