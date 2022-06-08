@@ -15275,3 +15275,15 @@ iframe{
     top:-75%
   }
 }
+
+@font-face {
+    font-family: 'futura-pt-medium';
+    src: url('fonts/Futura-PT-Medium.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('fonts/Futura-PT-Medium.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('fonts/Proxima-Nova-Font.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('fonts/Proxima-Nova-Font.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
